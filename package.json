@@ -1,4 +1,7 @@
 {
   "name": "CloutServe",
-  "packageManager": "yarn@3.2.4"
+  "packageManager": "yarn@3.2.4",
+  "dependencies": {
+    "selenium-webdriver": "^4.5.0"
+  }
 }

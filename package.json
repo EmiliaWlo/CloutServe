@@ -1,6 +1,9 @@
 {
-  "name": "CloutServe",
+  "name": "clout-serve",
   "packageManager": "yarn@3.2.4",
+  "scripts": {
+    "start": "node first-build.js"
+  },
   "dependencies": {
     "chromedriver": "^106.0.1",
     "selenium-webdriver": "^4.5.0"

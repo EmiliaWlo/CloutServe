@@ -55,15 +55,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"CloutServe@workspace:.":
-  version: 0.0.0-use.local
-  resolution: "CloutServe@workspace:."
-  dependencies:
-    chromedriver: ^106.0.1
-    selenium-webdriver: ^4.5.0
-  languageName: unknown
-  linkType: soft
-
 "agent-base@npm:6":
   version: 6.0.2
   resolution: "agent-base@npm:6.0.2"
@@ -165,6 +156,16 @@ __metadata:
   languageName: node
   linkType: hard
 
+"clout-serve@workspace:.":
+  version: 0.0.0-use.local
+  resolution: "clout-serve@workspace:."
+  dependencies:
+    chromedriver: ^106.0.1
+    dotenv: ^16.0.3
+    selenium-webdriver: ^4.5.0
+  languageName: unknown
+  linkType: soft
+
 "combined-stream@npm:^1.0.8":
   version: 1.0.8
   resolution: "combined-stream@npm:1.0.8"
@@ -255,6 +256,13 @@ __metadata:
   dependencies:
     path-type: ^4.0.0
   checksum: fa05e18324510d7283f55862f3161c6759a3f2f8dbce491a2fc14c8324c498286c54282c1f0e933cb930da8419b30679389499b919122952a4f8592362ef4615
+  languageName: node
+  linkType: hard
+
+"dotenv@npm:^16.0.3":
+  version: 16.0.3
+  resolution: "dotenv@npm:16.0.3"
+  checksum: afcf03f373d7a6d62c7e9afea6328e62851d627a4e73f2e12d0a8deae1cd375892004f3021883f8aec85932cd2834b091f568ced92b4774625b321db83b827f8
   languageName: node
   linkType: hard
 

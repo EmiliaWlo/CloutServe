@@ -1,2 +1,2 @@
 # CloutServe
- A learning project. Bot for interacting with Instagram.
+ A learning project. Bot for interacting with TikTok.

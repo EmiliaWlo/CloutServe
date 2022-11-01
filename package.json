@@ -2,7 +2,8 @@
   "name": "clout-serve",
   "packageManager": "yarn@3.2.4",
   "scripts": {
-    "start": "node first-build.js"
+    "start": "node first-build.js",
+    "barclays": "node barclays.js"
   },
   "dependencies": {
     "chromedriver": "^106.0.1",
